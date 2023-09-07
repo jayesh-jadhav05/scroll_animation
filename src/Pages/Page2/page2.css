@@ -1,0 +1,37 @@
+/* Page 1 styling */
+
+.page2-second-image-container {
+    display: flex;
+    position: relative;
+    z-index: 5;
+    justify-content: center;
+    bottom: -5rem;
+}
+
+.page2-second-image-container img {
+    width: 50%;
+}
+
+.page2-blue-star-img {
+    position: relative;
+    bottom: 37rem;
+    z-index: 500;
+    left: 5rem;
+}
+
+.page2-text {
+    position: relative;
+    bottom: 40rem;
+    z-index: 900;
+    left: 16%;
+}
+
+.page2-vector-image {
+    position: absolute;
+    z-index: 999;
+    background-color: #0052CC;
+    padding: 0.5rem 0.7rem;
+    border-radius: 50%;
+    top: 87rem;
+    left: 86rem;
+}

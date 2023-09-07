@@ -1,0 +1,27 @@
+ /* Header Styling */
+ .navbar {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 80px;
+     width: 100%;
+     padding: 2rem 0;
+     gap: 28rem;
+     position: fixed;
+     top: 0;
+     z-index: 999;
+ }
+
+ .navbar .logo {
+     width: 10rem;
+ }
+
+ .navbar .menu-links {
+     display: flex;
+     gap: 3rem;
+     z-index: 999;
+ }
+
+ .navbar .menu-links p {
+     font-size: 1.3rem;
+ }

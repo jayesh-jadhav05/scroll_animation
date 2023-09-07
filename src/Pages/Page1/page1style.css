@@ -1,0 +1,50 @@
+.page-1-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.page1-data .cloud-image {
+    width: 100%;
+    position: relative;
+    bottom: 19rem;
+    z-index: 999;
+}
+
+.second-image-container {
+    display: flex;
+    position: relative;
+    z-index: 5;
+    justify-content: center;
+    bottom: 80rem;
+}
+
+.second-image-container img {
+    width: 50%;
+}
+
+.page-1-container .blue-star-img {
+    position: relative;
+    bottom: 130rem;
+    z-index: 500;
+    left: -10.8rem;
+    transform: rotate(90deg);
+    width: 116rem;
+}
+
+.page-1-container .page1-text {
+    position: relative;
+    bottom: 225rem;
+    z-index: 999;
+    left: 65%;
+}
+
+.vector-image {
+    position: relative;
+    z-index: 999;
+    background-color: #0052CC;
+    padding: 0.5rem 0.7rem;
+    border-radius: 50%;
+    bottom: 220rem;
+    left: 58rem;
+}

@@ -1,0 +1,37 @@
+.page3-second-image-container {
+    display: flex;
+    position: relative;
+    z-index: 5;
+    justify-content: center;
+    bottom: -5rem;
+}
+
+.page3-second-image-container img {
+    width: 50%;
+}
+
+.page3-text {
+    position: relative;
+    bottom: 78rem;
+    z-index: 999;
+    left: 55%;
+}
+
+.page3-blue-star-img {
+    position: relative;
+    bottom: 48rem;
+    z-index: 500;
+    left: -34rem;
+    width: 65rem;
+    transform: rotate(97deg);
+}
+
+.page3-vector-image {
+    position: absolute;
+    z-index: 999;
+    background-color: #0052CC;
+    padding: 0.5rem 0.7rem;
+    border-radius: 50%;
+    top: 133rem;
+    left: 80rem;
+}
